@@ -29,7 +29,7 @@ color: black;
 }
 
 header{
-  background: url("../images/try.jpeg");
+  background: url("try.jpeg");
   background-position: center;
   background-repeat: no-repeat;
   background-size:cover;
@@ -142,7 +142,7 @@ margin-left: -30px;
 }
 
 .footer{
-  background:url("../images/mountain.jpeg");
+  background:url("mountain.jpeg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
