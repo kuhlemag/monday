@@ -1,0 +1,163 @@
+body{
+  padding: 0;
+  margin: 0;
+
+
+}
+.logo img{
+  height: 90px;
+}
+
+.navbar ul{
+list-style: none;
+float: right;
+margin-top: -50px;
+
+}
+
+
+.navbar ul li {
+  display: inline-block;
+
+}
+.navbar ul li a{
+text-decoration: none;
+padding: 10px;
+color: black;
+
+
+}
+
+header{
+  background: url("../images/try.jpeg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size:cover;
+  height: 600px;
+}
+.main-page h1{
+font-family: 'Dancing Script', cursive;
+margin-top: 200px;
+}
+.main-page{
+  text-align: center;
+}
+.container {
+  background: rgba(205,205,205,1);
+  height: 300px;
+  color:black;
+  padding-top: 30px;
+
+
+}
+.container{
+  text-align:center;
+  margin-bottom:400px;
+
+}
+.container h3{
+  color: #C76D7E;
+
+}
+.content{
+
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-auto-rows: auto auto;
+}
+
+.content {
+  margin-top: -400px;
+  background: #FFFCFF;
+  height: 400px;
+  color:black;
+  padding:30px;
+
+}
+.logo-container img{
+  width: 330px;
+  height: 250px;
+}
+.logo-container{
+  text-align: center;
+padding: 10px;
+}
+.logo-container{
+  background: #F7F7F7;
+}
+.logo-container h2{
+  font-size: 30px;
+}
+.logo-container p{
+  float: left;
+  padding-top:110px;
+
+}
+.container2{
+  margin: 0 auto;
+  width: 85%;
+}
+#button{
+  background:#F7F7F7;
+  height: 100px;
+   padding: 10px;
+
+}
+#button p{
+  float: left;
+margin-top: -70px;
+font-weight: bold;
+}
+#button button{
+  float: right;
+  border-radius: 30px;
+  height: 50px;
+  width: 200px;
+  outline: none;
+  text-align: center;
+}
+.almost{
+  padding-left: 100px;
+  height: 280px;
+
+}
+.almost ul{
+  float: left;
+  border: 1px solid white;
+}
+.almost ul li{
+list-style: none;
+margin-left: -30px;
+
+}
+.almost span{
+  color: #C5283D;
+
+}
+
+.okay{
+  margin-top: -85px;
+
+ padding-left: 532px;
+}
+
+.footer{
+  background:url("../images/mountain.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100px;
+}
+.copy{
+
+  color: #FFFFFF;
+padding: 50px;
+}
+.bg{
+  width: 80%;
+  margin: 0 auto;
+}
+.top{
+float: right;
+margin-top: -60px;
+}
