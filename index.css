@@ -1,13 +1,22 @@
 body{
   padding: 0;
   margin: 0;
+  scroll-behavior: smooth;
 
-
+}
+* p {
+  font-family: 'Varela Round', sans-serif;
 }
 .logo img{
   height: 90px;
+  padding-left: 50px;
 }
-
+.navbar a:hover{
+  color: red;
+}
+.main-pagemain h1{
+  font-weight: bold;
+}
 .navbar ul{
 list-style: none;
 float: right;
@@ -19,17 +28,24 @@ margin-top: -50px;
 .navbar ul li {
   display: inline-block;
 
+
 }
 .navbar ul li a{
 text-decoration: none;
 padding: 10px;
+text-transform: uppercase;
 color: black;
+font-size: 11px;
+font-weight: bold;
 
+}
+.navbar img{
+padding-right: 30px;
 
 }
 
 header{
-  background: url("try.jpeg");
+  background: url("https://images.unsplash.com/photo-1513077202514-c511b41bd4c7?ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80");
   background-position: center;
   background-repeat: no-repeat;
   background-size:cover;
@@ -38,22 +54,35 @@ header{
 .main-page h1{
 font-family: 'Dancing Script', cursive;
 margin-top: 200px;
+font-size: 70px;
+padding-bottom:50px;
+}
+.main-page p{
+  padding-bottom:50px
 }
 .main-page{
   text-align: center;
+padding-bottom:50px;
 }
 .container {
-  background: rgba(205,205,205,1);
+  background: #F5F6FA;
   height: 300px;
   color:black;
   padding-top: 30px;
 
 
 }
+.container h2{
+font-family: 'Encode Sans Semi Condensed', sans-serif;
+font-size: 20px;
+}
 .container{
   text-align:center;
   margin-bottom:400px;
 
+}
+.logo-container h2:hover {
+  color: red;
 }
 .container h3{
   color: #C76D7E;
@@ -83,10 +112,11 @@ margin-top: 200px;
 padding: 10px;
 }
 .logo-container{
-  background: #F7F7F7;
+  background: #F5F6FA;
 }
 .logo-container h2{
   font-size: 30px;
+  font-family: 'Encode Sans Semi Condensed', sans-serif;
 }
 .logo-container p{
   float: left;
@@ -116,6 +146,9 @@ font-weight: bold;
   outline: none;
   text-align: center;
 }
+.picture{
+  font-family: 'Encode Sans Semi Condensed', sans-serif;
+}
 .almost{
   padding-left: 100px;
   height: 280px;
@@ -142,7 +175,7 @@ margin-left: -30px;
 }
 
 .footer{
-  background:url("mountain.jpeg");
+  background:url("../images/mountain.jpeg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
