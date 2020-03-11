@@ -14,9 +14,9 @@ body{
 .navbar a:hover{
   color: red;
 }
-.main-pagemain h1{
-  font-weight: bold;
-}
+
+
+
 .navbar ul{
 list-style: none;
 float: right;
@@ -45,21 +45,20 @@ padding-right: 30px;
 }
 
 header{
-  background: url("mag.jpeg");
+  background: url("../images/mag.jpeg");
   background-position: center;
   background-repeat: no-repeat;
   background-size:cover;
   height: 600px;
 }
 .main-page h1{
-font-family: 'Dancing Script', cursive;
-margin-top: 200px;
+margin-top: 100px;
 font-size: 70px;
-padding-bottom:50px;
+font-family: 'Great Vibes', cursive;
+
+
 }
-.main-page p{
-  padding-bottom:50px
-}
+
 .main-page{
   text-align: center;
 
@@ -175,7 +174,7 @@ margin-left: -30px;
 }
 
 .footer{
-  background:url("mountain.jpeg");
+  background:url("../images/mountain.jpeg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
